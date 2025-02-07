@@ -1,0 +1,8 @@
+/* 768 to 1004 */
+@media(width>=48rem){
+    .contacto nav ul span{
+        display: inline;
+        
+    }
+
+}
