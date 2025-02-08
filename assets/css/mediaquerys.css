@@ -5,7 +5,30 @@
         
         span {
         display: inline;
-
+        }
     }
+    .hamburguer{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    /* .container{
+        margin-right: 0;
+    } */
+    hr{
+        display: none;
+    }
+    .menu{
+        justify-content: space-between;
+    }
+    .container ul{
+        display: flex;
+        li{
+            padding-right: 0 ;
+        }
+    
+    }
+
 }
-}
+

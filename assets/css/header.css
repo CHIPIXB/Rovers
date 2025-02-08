@@ -23,9 +23,7 @@
     }
 
 }
-.menu{
-    margin: var(--gap);
-}
+
 .hamburguer{
     text-align: end;
 }
@@ -38,6 +36,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
+    align-items: center;
 
     figure{
         width: 9.375rem;
@@ -49,10 +48,9 @@
 .container{
     text-align: center;
     font-size: 1.25rem;
-    margin-top: 2.5rem;
 
     li{
-        margin: 1.5625rem;
+        padding: 1.5625rem;
 
         a{
             color: rgb(179, 188, 194);
