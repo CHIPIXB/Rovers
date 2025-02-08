@@ -12,6 +12,7 @@
     }
     .menu{
         display: flex;
+        margin: 0;
     }
     /* .container{
         margin-right: 0;

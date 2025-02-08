@@ -36,13 +36,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    align-items: center;
 
     figure{
         width: 9.375rem;
         margin: auto 0;
     }
-    
+}
+.menu{
+    margin:20px;
 }
 
 .container{
