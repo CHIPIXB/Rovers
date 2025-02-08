@@ -37,7 +37,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    margin-bottom: 1.875rem;
 
     figure{
         width: 9.375rem;
@@ -49,6 +48,7 @@
 }
 
 .container{
+    margin: 40px 0;
     text-align: center;
     font-size: 1.25rem;
 
