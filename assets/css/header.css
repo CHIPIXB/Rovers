@@ -2,7 +2,7 @@
     background-color: var(--secondary-color);
 
     nav{
-        max-width: 1004px;
+        max-width: 62.75rem;
         margin: auto;
     
         
@@ -13,7 +13,7 @@
             i{
                 font-size: 170%;
                 color: var(--primary-color);
-                padding: 20px 0px;
+                padding: 1.25rem 0rem;
             }
             span{
                 display: none;
@@ -30,9 +30,9 @@
     text-align: end;
 }
 .hamburguer div{
-    width: 40px;
-    border: 1px solid gray;
-    margin: 12px;
+    width: 2.5rem;
+    border: 0.0625rem solid gray;
+    margin: 0.75rem;
 }
 .grid{
     display: grid;
@@ -40,7 +40,7 @@
     justify-content: space-between;
 
     figure{
-        width: 150px;
+        width: 9.375rem;
         margin: auto 0;
     }
     
@@ -48,24 +48,22 @@
 
 .container{
     text-align: center;
-    font-size: 20px;
-    margin-top: 40px;
+    font-size: 1.25rem;
+    margin-top: 2.5rem;
 
     li{
-        margin: 25px;
+        margin: 1.5625rem;
 
         a{
             color: rgb(179, 188, 194);
         }
         
-
     }
 
     hr{
         margin: var(--gap);
     }
 }
-
 .container ul li:first-child a{
     color: var(--primary-color);
 }
