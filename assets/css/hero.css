@@ -1,0 +1,54 @@
+.hero{
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #555;
+    background-blend-mode: multiply;
+    height: 90vh;
+    padding: 20px;
+    align-content: center;
+    hgroup{
+        h1{
+            color: white;
+            font-size: 300%;
+            font-family: var(--secondary-font);
+        }
+        
+        h2{
+            font-size: 150%;
+            color: var(--primary-color);
+            font-weight: 700;
+            margin: 20px 0;
+        }
+
+    }
+    p{
+        color: white;
+    }
+    .btn{
+        background-color: var(--primary-color);
+        color: white;
+        padding: 20px;
+        margin: 20px 0;
+    }
+}
+
+.icons{
+    width: 150px;
+    text-align: 50vh;
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+
+        a{
+            color: white;
+            font-size: 200%;
+        }
+
+    }
+
+}
+
+
+

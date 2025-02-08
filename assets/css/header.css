@@ -26,6 +26,7 @@
 
 .hamburguer{
     text-align: end;
+
 }
 .hamburguer div{
     width: 2.5rem;
@@ -36,6 +37,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
+    margin-bottom: 1.875rem;
 
     figure{
         width: 9.375rem;
@@ -43,7 +45,7 @@
     }
 }
 .menu{
-    margin:20px;
+    margin:1.25rem;
 }
 
 .container{
@@ -51,7 +53,8 @@
     font-size: 1.25rem;
 
     li{
-        padding: 1.5625rem;
+        padding: 0.625rem;
+        font-weight: 700;
 
         a{
             color: rgb(179, 188, 194);
