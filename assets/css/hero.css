@@ -5,7 +5,7 @@
     background-color: #555;
     background-blend-mode: multiply;
     height: 60vh;
-    padding: 20px;
+    padding: 1.25rem;
     align-content: center;
     hgroup{
         h1{
@@ -17,7 +17,7 @@
         h5{
             font-size: 150%;
             color: var(--primary-color);
-            margin: 20px 0;
+            margin: 1.25rem 0;
         }
 
     }
@@ -27,14 +27,13 @@
     .btn{
         background-color: var(--primary-color);
         color: white;
-        padding: 20px;
-        margin: 20px 0;
+        padding: 1.25rem;
+        margin: 1.25rem 0;
     }
 }
 
 .icons{
-    width: 160px;
-    text-align: 50vh;
+    width: 10rem;
 
     ul{
         display: flex;
@@ -44,9 +43,7 @@
             color: white;
             font-size: 200%;
         }
-
     }
-
 }
 
 
