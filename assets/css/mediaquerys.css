@@ -38,7 +38,14 @@
             margin: 0;
         }
     }
+
+    .aboutUs .flex{
+        display: flex;
+    }
     
+    .aboutUs .title{
+        margin-bottom: 0;
+    }
 
 }
 
