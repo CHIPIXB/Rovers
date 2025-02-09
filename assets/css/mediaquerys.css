@@ -14,9 +14,7 @@
         display: flex;
         margin: 0;
     }
-    /* .container{
-        margin-right: 0;
-    } */
+
     hr{
         display: none;
     }
@@ -26,7 +24,7 @@
     .container ul{
         display: flex;
         li{
-            padding-right: 0 ;
+            margin-left: 1.25rem;
         }
     }
 
@@ -34,7 +32,7 @@
         display: flex;
         article{
             padding: var(--gap);
-            border-left: 1px solid var(--text-color);
+            border-left: 0.0625rem solid var(--text-color);
             margin: 0;
         }
     }
