@@ -1,10 +1,11 @@
 .ourServices i{
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    padding: 5px;
+    padding: 10px;
+    font-size: 150%;
 }
 .ourServices .page>div{
-    padding: 30px;
+    padding-top: 30px;
     text-align: center;
 }
 h2{
@@ -13,4 +14,11 @@ h2{
     span{
         color: var(--primary-color);
     }
+}
+.ourServices .page article{
+    margin: 20px;
+}
+h3{
+    font-weight: var(--font-bold) ;
+    margin: 10px 0;
 }
