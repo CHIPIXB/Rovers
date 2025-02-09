@@ -1,7 +1,7 @@
 .ourServices i{
     color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    padding: 10px;
+    border: 0.0625rem solid var(--primary-color);
+    padding: 0.625rem;
     font-size: 150%;
 }
 h2{
@@ -13,45 +13,40 @@ h2{
     }
 }
 .ourServices .page article{
-    margin: 0 20px;
+    margin: 0 1.25rem;
 
     p{
         color: var(--color-p);
     }
     a{
-        margin: 10px 0;
+        margin: 0.625rem 0;
         color: var(--primary-color);
         font-weight: var(--font-bold) ;
-        font-size: 80%;
     }
 }
 .ourServices h3{
     font-weight: var(--font-bold) ;
-    margin: 10px 0;
+    margin: 0.625rem 0;
 }
 
 .ourServices .page .fa-truck{
     transform: rotateY(180deg);
 }
 
-.ourServices .title{
-    margin: 40px 0;
-}
 .ourServices .page .title>div{
-    width: 100px;
-    height: 2px;
+    width: 6.25rem;
+    height: 0.125rem;
     background-color: var(--primary-color);
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 5px;
+    margin-top: 0.3125rem;
     div{
         color: var(--primary-color);
         position: absolute;
         left: 50%;
-        margin: -6px;
+        margin: -0.375rem;
         font-weight: var(--font-bold);
-
     }
 }
 
