@@ -29,6 +29,15 @@
             padding-right: 0 ;
         }
     }
+
+    .ourServices .flex{
+        display: flex;
+        article{
+            padding: var(--gap);
+            border-left: 1px solid var(--text-color);
+            margin: 0;
+        }
+    }
     
 
 }
