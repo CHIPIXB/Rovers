@@ -3,15 +3,12 @@
     border: 1px solid var(--primary-color);
     padding: 10px;
     font-size: 150%;
-
-}
-.ourServices .page>div{
-    padding-top: 30px;
-    text-align: center;
 }
 h2{
     font-family: var(--secondary-font);
     font-size: 200%;
+    padding-top: 30px;
+    text-align: center;
     span{
         color: var(--primary-color);
     }
@@ -37,4 +34,23 @@ h3{
 .ourServices .page .fa-truck{
     transform: rotateY(180deg);
 }
+
+.ourServices .page>div{
+    width: 100px;
+    height: 2px;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+    div{
+        color: var(--primary-color);
+        position: absolute;
+        left: 50%;
+        margin: -6px;
+        font-weight: var(--font-bold);
+
+    }
+}
+
 
