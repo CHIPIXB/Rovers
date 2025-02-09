@@ -2,10 +2,6 @@
     background-color: var(--secondary-color);
 
     nav{
-        max-width: 62.75rem;
-        margin: auto;
-    
-        
         ul{
             display: flex;
             justify-content: space-around;
@@ -36,10 +32,9 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
 
     figure{
-        width: 120px;
+        width: 100px;
         margin: auto 0;
     }
 }
@@ -53,12 +48,9 @@
     font-size: 1.25rem;
 
     li{
-        padding: 0 50px;
-
         a{
             color: rgb(179, 188, 194);
-        }
-        
+        } 
     }
 
     hr{
