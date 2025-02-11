@@ -21,6 +21,8 @@
 }
 
 .aboutUs .flex {
+    margin-bottom: 50px;
+
     figure{
         border: 4px solid var(--primary-color);
         margin: 40px;

@@ -5,6 +5,8 @@ footer{
     height: 40px;
     background-color: var(--secondary-color);
     align-content: center;
+    margin-top: 20px;
+
 
 
     .page{
@@ -17,4 +19,12 @@ footer{
             color: white;
         }
     }
+}
+
+.triangle{
+    position: absolute;
+    top: -40px;
+    right: 30px;
+    font-size: 200%;
+    color: var(--primary-color);
 }
