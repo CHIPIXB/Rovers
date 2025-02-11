@@ -1,0 +1,19 @@
+footer{
+    height: 40px;
+    background-color: var(--secondary-color);
+    
+
+    .page{
+        max-width: 1004px;
+        display: flex;
+        align-content: center;
+        color: white;
+        a{
+            color: white;
+        }
+       
+        
+
+    }
+
+}
