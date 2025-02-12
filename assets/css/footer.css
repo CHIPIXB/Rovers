@@ -23,9 +23,8 @@ footer{
 
 .triangle{
     position: absolute;
-    top: -60px;
+    top: -40px;
     right: 30px;
-    font-size: 300%;
+    font-size: 200%;
     color: var(--primary-color);
 }
-
