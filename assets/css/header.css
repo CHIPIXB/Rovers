@@ -1,0 +1,68 @@
+.contacto{
+    background-color: var(--secondary-color);
+
+    nav{
+        ul{
+            display: flex;
+            justify-content: space-around;
+    
+            i{
+                font-size: 170%;
+                color: var(--primary-color);
+                padding: 1.25rem 0rem;
+            }
+            span{
+                display: none;
+                color: white;
+            }
+        }
+    }
+
+}
+
+.hamburguer{
+    text-align: end;
+
+}
+.hamburguer div{
+    width: 2.5rem;
+    border: 0.0625rem solid gray;
+    margin: 0.75rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    figure{
+        width: 6.25rem;
+        margin: auto 0;
+    }
+}
+.menu{
+    margin:1.25rem;
+}
+
+.container{
+    margin: 1.25rem 0;
+    text-align: center;
+    font-size: 1.25rem;
+
+    li{
+        a{
+            color: rgb(179, 188, 194);
+        } 
+    }
+
+    hr{
+        margin: var(--gap);
+    }
+}
+.container ul li:first-child a{
+    color: var(--primary-color);
+}
+
+
+header .menu .container li a:hover{
+    color: var(--primary-color);
+}
+

@@ -1,0 +1,32 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 2.5rem;
+    background-color: var(--secondary-color);
+    align-content: center;
+    margin-top: 1.25rem;
+
+    .page{
+        max-width: 62.75rem;
+        display: flex;
+        color: white;
+        margin-left: 1.25rem;
+
+        a{
+            color: white;
+        }
+    }
+}
+
+footer .page>nav i{
+    position: absolute;
+    top: -2.5rem;
+    right: 1.875rem;
+    font-size: 200%;
+    color: var(--primary-color);
+
+}
+
+
+

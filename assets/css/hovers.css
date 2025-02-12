@@ -1,0 +1,35 @@
+
+/* LAYOUT */
+.btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.btn:hover span{
+    display: inline-block;
+    transform: translateX(0.3125rem);
+    transition: 1s ease;
+}
+
+/* HEADER */
+header .menu .container li a:hover{
+    color: var(--primary-color);
+}
+
+/* ABOUT US */
+#aboutUs .flex figure:hover {
+    transform: rotate(0deg);
+    
+}
+#aboutUs .flex figure:hover img {
+    transform: rotate(0deg);
+}
+
+/* FOOTER */
+footer .page>nav ul a:hover{
+    color: var(--primary-color);
+}
+
+
+
+
+

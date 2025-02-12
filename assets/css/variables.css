@@ -1,0 +1,11 @@
+:root{
+    --primary-color: #fa573a;
+    --secondary-color:  #21242e;
+    --text-color:  rgb(179, 188, 194);
+    --color-p:  #635d5d;
+    --font-size: 1rem;
+    --gap: 1rem;
+    --primary-font: "Montserrat", serif;
+    --secondary-font:"Handlee", serif;
+    --font-bold: 700;
+}

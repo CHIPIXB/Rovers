@@ -1,0 +1,43 @@
+html{
+    scroll-behavior: smooth ;
+}
+body{
+    font-size: var(--font-size);
+    font-family: var(--primary-font);
+    scroll-behavior: smooth ;
+
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.page{
+    max-width: 62.75rem;
+    margin: 0 auto;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border: 0.0625rem solid var(--primary-color);
+    color: white;
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.btn:hover span{
+    display: inline-block;
+    transform: translateX(0.3125rem);
+    transition: 1s ease;
+
+}
