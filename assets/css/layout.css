@@ -24,7 +24,7 @@ a{
 
 .btn{
     background-color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    border: 0.0625rem solid var(--primary-color);
     color: white;
     padding: 1.25rem;
     margin: 1.25rem 0;
@@ -37,7 +37,7 @@ a{
 
 .btn:hover span{
     display: inline-block;
-    transform: translateX(5px);
+    transform: translateX(0.3125rem);
     transition: 1s ease;
 
 }
