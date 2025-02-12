@@ -1,4 +1,4 @@
-.ourServices i{
+#ourServices i{
     color: var(--primary-color);
     border: 0.0625rem solid var(--primary-color);
     padding: 0.625rem;
@@ -12,7 +12,7 @@ h2{
         color: var(--primary-color);
     }
 }
-.ourServices .page article{
+#ourServices .page article{
     margin: 0 1.25rem;
 
     p{
@@ -24,16 +24,16 @@ h2{
         font-weight: var(--font-bold) ;
     }
 }
-.ourServices h3{
+#ourServices h3{
     font-weight: var(--font-bold) ;
     margin: 0.625rem 0;
 }
 
-.ourServices .page .fa-truck{
+#ourServices .page .fa-truck{
     transform: rotateY(180deg);
 }
 
-.ourServices .page .title>div{
+#ourServices .page .title>div{
     width: 6.25rem;
     height: 0.125rem;
     background-color: var(--primary-color);

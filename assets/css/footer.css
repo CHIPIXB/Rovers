@@ -7,8 +7,6 @@ footer{
     align-content: center;
     margin-top: 20px;
 
-
-
     .page{
         max-width: 1004px;
         display: flex;
@@ -21,10 +19,14 @@ footer{
     }
 }
 
-.triangle{
+footer .page>nav i{
     position: absolute;
     top: -40px;
     right: 30px;
     font-size: 200%;
     color: var(--primary-color);
+
 }
+
+
+

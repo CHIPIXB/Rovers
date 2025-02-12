@@ -1,4 +1,4 @@
-.hero{
+#hero{
     background-image: url(../images/fondo.jpg);
     background-size: cover;
     background-position: center;
@@ -24,6 +24,7 @@
     p{
         color: white;
     }
+
     
 }
 

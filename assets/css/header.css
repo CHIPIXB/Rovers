@@ -62,3 +62,7 @@
 }
 
 
+header .menu .container li a:hover{
+    color: var(--primary-color);
+}
+
